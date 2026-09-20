@@ -143,7 +143,7 @@
   "3.0.230": {
     "en": "Growatt TL batt Grid First discharge power rate"
   },
-  "3.0.231": {
+  "3.0.232": {
     "en": "solaredge pv only cap on batt devices, set own refresh timer on growatt"
   }
 }

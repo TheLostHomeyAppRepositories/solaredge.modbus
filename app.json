@@ -1,7 +1,7 @@
 {
   "_comment": "This file is generated. Please edit .homeycompose/app.json instead.",
   "id": "solaredge.modbus",
-  "version": "3.0.231",
+  "version": "3.0.232",
   "compatibility": ">=12.13.0",
   "sdk": 3,
   "brandColor": "#df001c",
@@ -6271,6 +6271,15 @@
                 "nl": "Inverter ID",
                 "de": "Wechselrichter-ID"
               }
+            },
+            {
+              "id": "pollinginterval",
+              "type": "number",
+              "value": 60,
+              "min": 10,
+              "label": {
+                "en": "Polling interval"
+              }
             }
           ]
         }
@@ -6607,6 +6616,15 @@
                 "nl": "Inverter ID",
                 "de": "Wechselrichter-ID"
               }
+            },
+            {
+              "id": "pollinginterval",
+              "type": "number",
+              "value": 28,
+              "min": 10,
+              "label": {
+                "en": "Polling interval"
+              }
             }
           ]
         }
@@ -6939,6 +6957,15 @@
               },
               "hint": {
                 "en": "Please enter inverter ID. When using 1 inverter it is most likely the default value of 1. When using multiple inverters, a unique ID must be configured in each inverter."
+              }
+            },
+            {
+              "id": "pollinginterval",
+              "type": "number",
+              "value": 60,
+              "min": 10,
+              "label": {
+                "en": "Polling interval"
               }
             }
           ]

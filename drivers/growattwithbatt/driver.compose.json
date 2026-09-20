@@ -5,7 +5,9 @@
   },
   "class": "solarpanel",
   "energy": {
-    "batteries": ["OTHER"]
+    "batteries": [
+      "OTHER"
+    ]
   },
   "capabilities": [
     "growatt_onoff",
@@ -279,8 +281,12 @@
       "icon": "/assets/total_yield.svg"
     }
   },
-  "platforms": ["local"],
-  "connectivity": ["lan"],
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "lan"
+  ],
   "images": {
     "small": "{{driverAssetsPath}}/images/small.png",
     "large": "{{driverAssetsPath}}/images/large.png"
@@ -339,6 +345,15 @@
             "en": "Inverter ID",
             "nl": "Inverter ID",
             "de": "Wechselrichter-ID"
+          }
+        },
+        {
+          "id": "pollinginterval",
+          "type": "number",
+          "value": 60,
+          "min": 10,
+          "label": {
+            "en": "Polling interval"
           }
         }
       ]

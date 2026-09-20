@@ -328,6 +328,15 @@
             "nl": "Inverter ID",
             "de": "Wechselrichter-ID"
           }
+        },
+        {
+          "id": "pollinginterval",
+          "type": "number",
+          "value": 28,
+          "min": 10,
+          "label": {
+            "en": "Polling interval"
+          }
         }
       ]
     }

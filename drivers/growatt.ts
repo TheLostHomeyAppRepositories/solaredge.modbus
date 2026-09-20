@@ -79,6 +79,7 @@ export class Growatt extends Homey.Device {
     period3stop: [3043, 1, 'UINT16', 'period3stop', 0],
     period4start: [3044, 1, 'UINT16', 'period4start', 0],
     period4stop: [3045, 1, 'UINT16', 'period4stop', 0],
+  
   };
 
   readonly holdingRegistersBase: { [key: string]: RegisterDefinition } = {
